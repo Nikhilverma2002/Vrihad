@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Vrihad</string>
+    <string name="we_will_send_you_an_one_time_password_on_this_mobile_number">We will send you an One time Password on this mobile number</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="or">OR</string>
+    <string name="enter_the_otp_sent_to_91_80675_50678">Enter the OTP sent to +91 80675-50678</string>
+    <string name="verify_and_proceed">Verify and Proceed</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="search_for_quizes">Search for quizes</string>
+    <string name="skip">Skip</string>
+    <string name="my_wallet">My wallet</string>
+    <string name="logout">Logout</string>
+    <string name="personal_details">Personal details</string>
+    <string name="terms_of_service">Terms of service</string>
+    <string name="profile_details">Profile Details</string>
+    <string name="_50">₹ 50</string>
+    <string name="entry_cost">Entry Cost</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_nunc_vulputate_libero_et_velit_interdum_ac_aliquet_odio_mattis_class_aptent_taciti_sociosqu_ad_litora_torquent_per_conubia_nostra_per_inceptos_himenaeos">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</string>
+</resources>
