@@ -26,7 +26,6 @@
         android:layout_alignParentBottom="true"
         app:activeItem="1"
         app:backgroundColor="@color/bg_color"
-        app:cornerRadius="20dp"
         app:iconSize="18dp"
         app:iconTint="@color/black"
         app:iconTintActive="@color/white"

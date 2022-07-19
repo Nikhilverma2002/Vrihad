@@ -115,8 +115,9 @@
 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
                 android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_weight="1"
                 android:orientation="vertical"
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp">
@@ -135,10 +136,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins"
-                    android:gravity="start"
+                    android:gravity="center"
                     android:text="Quizes Won"
                     android:textColor="@color/white"
-                    android:textSize="9sp" />
+                    android:textSize="10sp" />
 
 
             </LinearLayout>
@@ -150,11 +151,11 @@
                 android:background="@color/white" />
 
             <LinearLayout
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
                 android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_weight="1"
                 android:orientation="vertical"
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp">
@@ -173,10 +174,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins"
-                    android:gravity="start"
+                    android:gravity="center"
                     android:text="Quizes Attempted"
                     android:textColor="@color/white"
-                    android:textSize="9sp" />
+                    android:textSize="10sp" />
 
 
             </LinearLayout>
@@ -191,7 +192,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:gravity="end"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
                 android:orientation="vertical"
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp">
@@ -214,7 +217,7 @@
                     android:gravity="center"
                     android:text="Amount Won"
                     android:textColor="@color/white"
-                    android:textSize="9sp" />
+                    android:textSize="10sp" />
 
             </LinearLayout>
 
