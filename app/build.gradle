@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.application'
 }
-
+apply plugin: 'kotlin-android'
 android {
     compileSdk 32
 
@@ -38,6 +38,12 @@ dependencies {
 
     //pin view
     implementation 'io.github.chaosleung:pinview:1.4.4'
+
+    //circular image view
     implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+
+    //Smooth tab bar
+    implementation 'com.github.ibrahimsn98:SmoothBottomBar:1.7.8'
 
 }

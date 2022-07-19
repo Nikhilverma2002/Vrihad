@@ -1,9 +1,9 @@
 package com.honeysha_tech.vrihad;
-
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 import androidx.viewpager.widget.ViewPager;
+
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
@@ -20,7 +20,7 @@ public class activity_intro extends AppCompatActivity {
     private ViewPager screenPager;
     IntroViewPagerAdapter introViewPagerAdapter;
     TabLayout tabIndicator;
-    ImageView btnNext;
+    ImageView btnNext,btnGetStarted;
     int position = 0;
     TextView tvSkip;
 
@@ -39,7 +39,7 @@ public class activity_intro extends AppCompatActivity {
         window.setStatusBarColor(ContextCompat.getColor(activity_intro.this, R.color.bg_color));
         // ini views
         btnNext = findViewById(R.id.next);
-        //btnGetStarted = findViewById(R.id.btn_get_started);
+        btnGetStarted = findViewById(R.id.getstarted);
         tabIndicator = findViewById(R.id.tab_indicator);
         tvSkip = findViewById(R.id.tv_skip);
 
@@ -61,6 +61,7 @@ public class activity_intro extends AppCompatActivity {
 
         // next button click Listner
         btnNext.setOnClickListener(v -> {
+
             position = screenPager.getCurrentItem();
             if (position < mList.size()) {
                 position++;
@@ -92,19 +93,21 @@ public class activity_intro extends AppCompatActivity {
         // skip button click listener
         tvSkip.setOnClickListener(v -> {
             screenPager.setCurrentItem(mList.size());
-            savePrefsData();
+            //savePrefsData();
             //hkk
         });
-        /*btnGetStarted.setOnClickListener(v -> {
+        btnGetStarted.setOnClickListener(v -> {
             screenPager.setCurrentItem(mList.size());
-            savePrefsData();
-            //open_dialog_box();
-        });*/
+            //savePrefsData();
+            Intent intent = new Intent(activity_intro.this,LoginScreen.class);
+            startActivity(intent);
+            finish();
+        });
 
     }
 
 
-    private boolean restorePrefData() {
+   /* private boolean restorePrefData() {
         SharedPreferences pref = getApplicationContext().getSharedPreferences("myPrefs", MODE_PRIVATE);
         return pref.getBoolean("isIntroOpnend", false);
     }
@@ -114,12 +117,12 @@ public class activity_intro extends AppCompatActivity {
         SharedPreferences.Editor editor = pref.edit();
         editor.putBoolean("isIntroOpnend", true);
         editor.apply();
-    }
+    }*/
 
     // show the GETSTARTED Button and hide the indicator and the next button
     private void loaddLastScreen() {
-       // btnNext.setVisibility(View.INVISIBLE);
-        //btnGetStarted.setVisibility(View.VISIBLE);
+        btnNext.setVisibility(View.GONE);
+        btnGetStarted.setVisibility(View.VISIBLE);
         tvSkip.setVisibility(View.INVISIBLE);
         tabIndicator.setVisibility(View.INVISIBLE);
         // TODO : ADD an animation the getstarted button
