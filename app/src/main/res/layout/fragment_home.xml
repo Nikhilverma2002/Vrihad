@@ -8,9 +8,10 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:paddingTop="20dp"
         android:scrollbars="none"
         android:background="@color/white"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
         android:backgroundTint="@color/bg_color"
         android:layout_height="match_parent">
 
@@ -233,7 +234,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="@font/poppins_semibold"
                 android:gravity="start"
-                android:text="Categories"
+                android:text="@string/categories"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -245,14 +246,16 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="25dp"
                 android:fontFamily="@font/poppins"
-                android:text="See all"
+                android:text="@string/see_all"
                 android:textColor="@color/black"
                 android:textSize="14sp"
                 app:layout_constraintBottom_toBottomOf="@+id/category"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/category" />
 
-            <LinearLayout
+
+
+            <!--<LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -503,29 +506,22 @@
 
                     </LinearLayout>
                 </LinearLayout>
-            </LinearLayout>
+            </LinearLayout>-->
 
-            <!--      <me.ibrahimsn.lib.SmoothBottomBar
-                      android:id="@+id/bottomBar"
-                      android:layout_width="match_parent"
-                      android:layout_height="50dp"
-                      android:layout_alignParentBottom="true"
-                      app:activeItem="1"
-                      app:backgroundColor="@color/orange_100"
-                      app:iconSize="18dp"
-                      app:iconTint="@color/orange_500"
-                      app:iconTintActive="@color/orange_700"
-                      app:indicatorColor="@color/white"
-                      app:indicatorRadius="10dp"
-                      app:itemFontFamily="@font/quicksand_medium"
-                      app:itemPadding="10dp"
-                      app:layout_constraintBottom_toBottomOf="parent"
-                      app:layout_constraintEnd_toEndOf="parent"
-                      app:layout_constraintStart_toStartOf="parent"
-                      app:menu="@menu/list"
-                      app:sideMargins="5dp"
-                      app:textColor="@color/orange_700"
-                      app:textSize="12sp" />-->
+            <GridView
+                android:id="@+id/idGVcourses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:horizontalSpacing="20dp"
+                android:numColumns="2"
+                android:verticalSpacing="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/see" />
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
