@@ -22,4 +22,7 @@
     <string name="correct">Correct</string>
     <string name="congratulations_for_getting_all_the_answers_correct">Congratulations for getting all the answers correct</string>
     <string name="play_again">Play Again</string>
+    <string name="cards_will_come_from_database">Cards will come from database</string>
+    <string name="categories">Categories</string>
+    <string name="see_all">See all</string>
 </resources>

@@ -21,7 +21,8 @@
             android:padding="15dp"
             android:src="@drawable/ic_back"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="TODO" />
 
         <TextView
             android:id="@+id/heading"
@@ -64,7 +65,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppins_semibold"
-            android:text="Cards will come from database"
+            android:text="@string/cards_will_come_from_database"
             android:textColor="@color/teal_200"
             android:textSize="17sp"
             app:layout_constraintBottom_toBottomOf="@+id/view"
