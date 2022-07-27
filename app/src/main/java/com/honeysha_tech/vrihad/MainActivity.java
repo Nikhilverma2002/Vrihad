@@ -16,15 +16,15 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.edit_profile);
 
 
         Window window = MainActivity.this.getWindow();
         window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-        window.setStatusBarColor(ContextCompat.getColor(MainActivity.this, R.color.bg_color));
+        window.setStatusBarColor(ContextCompat.getColor(MainActivity.this, R.color.white));
 
 
-        if (getSupportFragmentManager().findFragmentById(R.id.container) != null) {
+        /*if (getSupportFragmentManager().findFragmentById(R.id.container) != null) {
             getSupportFragmentManager()
                     .beginTransaction().
                     remove(Objects.requireNonNull(getSupportFragmentManager().findFragmentById(R.id.container))).commit();
@@ -74,6 +74,6 @@ public class MainActivity extends AppCompatActivity {
             }
             return false;
         });
-
+*/
     }
 }
