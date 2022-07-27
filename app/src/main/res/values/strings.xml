@@ -29,4 +29,6 @@
     <string name="email_address">Email Address</string>
     <string name="phone_number">Phone Number</string>
     <string name="add_bio">Add Bio</string>
+    <string name="todo">TODO</string>
+    <string name="save">Save</string>
 </resources>
