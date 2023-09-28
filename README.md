@@ -1,5 +1,4 @@
-Vrihad Quiz App
-Vrihad Quiz is an engaging Android app designed for quiz enthusiasts. It offers a seamless quiz experience with the flexibility of both offline and online modes.
+Vrihad VHC Quiz app is an engaging Android app designed for quiz enthusiasts. It offers a seamless quiz experience with the flexibility of both offline and online modes.
 
 Features:
 
