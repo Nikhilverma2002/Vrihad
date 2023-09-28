@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
@@ -39,6 +38,8 @@
         <entry key="..\:/Users/91626/AndroidStudioProjects/Vrihad/app/src/main/res/layout/quiz_list.xml" value="0.24895833333333334" />
         <entry key="..\:/Users/91626/AndroidStudioProjects/Vrihad/app/src/main/res/layout/result.xml" value="0.2" />
         <entry key="..\:/Users/91626/AndroidStudioProjects/Vrihad/app/src/main/res/layout/task_card.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable-v24/indicator_selected.xml" value="0.2405" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/background_search.xml" value="0.2405" />
         <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/bg_bottom_bar.xml" value="0.12" />
         <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/bg_button.xml" value="0.2175" />
         <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/bg_card.xml" value="0.2" />
@@ -49,15 +50,23 @@
         <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/bg_home.xml" value="0.2175" />
         <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/bg_layout.xml" value="0.2175" />
         <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/bg_options.xml" value="0.2175" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/bg_quiz.xml" value="0.2365" />
         <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/bg_ring.xml" value="0.2175" />
         <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/bg_rupee.xml" value="0.2175" />
         <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/bg_timer.xml" value="0.136" />
         <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/bg_view1.xml" value="0.2" />
         <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/bg_view2.xml" value="0.2395" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/circle_progress.xml" value="0.1835" />
         <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/cross_white.xml" value="0.2065" />
         <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/ic_cross.xml" value="0.2065" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/ic_ellipse3.xml" value="0.2405" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/ic_ellipse8.xml" value="0.2405" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/ic_ellipse9.xml" value="0.2405" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/ic_forward.xml" value="0.2405" />
         <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/ic_home.xml" value="0.232" />
         <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/ic_profile.xml" value="0.232" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/indicator_default.xml" value="0.2405" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/indicator_selector.xml" value="0.2405" />
         <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/progress_bg.xml" value="0.2175" />
         <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/drawable/view.xml" value="0.121" />
         <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/layout/activity_intro.xml" value="0.22826086956521738" />
@@ -67,7 +76,7 @@
         <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/layout/activity_qand.xml" value="0.2" />
         <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/layout/fragment_home.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/layout/fragment_otp__verification.xml" value="0.22826086956521738" />
-        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/layout/fragment_profile.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
         <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/layout/fragment_quiz.xml" value="0.2" />
         <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/layout/fragment_quiz_list.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/nikhi/AndroidStudioProjects/Vrihad/app/src/main/res/layout/fragment_result.xml" value="0.4" />
