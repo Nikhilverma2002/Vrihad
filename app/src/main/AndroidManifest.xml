@@ -16,11 +16,12 @@
         <activity
             android:name=".QAndA"
             android:exported="false" />
-        <activity
-            android:name=".OtpVerification"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".OtpVerification"
             android:exported="false" />
 
         <activity
@@ -30,7 +31,7 @@
             <activity
                 android:name=".activity_intro"
                 android:exported="true">
-            <intent-filter>
+        <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
